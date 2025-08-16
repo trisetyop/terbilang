@@ -1,10 +1,5 @@
 {
   "version": 2,
-  "functions": {
-    "api/terbilang.js": {
-      "runtime": "edge"
-    }
-  },
   "routes": [
     { "src": "/api/terbilang", "dest": "/api/terbilang.js" }
   ]
